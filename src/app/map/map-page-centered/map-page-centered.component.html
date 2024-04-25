@@ -1,0 +1,10 @@
+<div class="home-container">
+    <app-header></app-header>
+    <div class="wrapper">
+        <div class="meetings">
+            <app-meeting *ngFor="let meetingInterface of meetingInterfaceList"
+            [meetingInterface]="meetingInterface"></app-meeting>
+        </div>
+        <app-map [lat]="currentMeeting.latitude" [lon]="currentMeeting.latitude"></app-map>
+    </div>
+</div>

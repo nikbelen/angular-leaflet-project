@@ -1,0 +1,18 @@
+<section class="listing">
+    <div class="top-lane">
+        <img class="listing-photo" [src]="meetingInterface.photo" alt="Exterior photo of {{meetingInterface.name}}">
+        <div class="top-info">
+            <h5 class="listing-heading">{{meetingInterface.name}}</h5>
+            <p>Участников: {{meetingInterface.numplayers}}/{{meetingInterface.maxplayers}}</p>
+            <p>Когда: {{meetingInterface.date}}</p>
+            <div class="buttons-div">
+                <button mat-raised-button color="accent">Иду!</button>
+                <button mat-raised-button color="accent"[routerLink]="['/map', meetingInterface.id]">Показать на карте</button>
+            </div>
+        </div>
+    </div>
+    <div>
+        <h5>Описание</h5>
+        <p class="listing-location" [innerHTML]="meetingInterface.description"></p>
+    </div>
+  </section>

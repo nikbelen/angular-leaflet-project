@@ -1,0 +1,17 @@
+<section class="listing">
+    <div class="top-lane">
+        <img class="listing-photo" [src]="gameInterface.photo" alt="Exterior photo of {{gameInterface.name}}">
+        <div class="top-info">
+            <h5 class="listing-heading">{{gameInterface.name}}</h5>
+            <p class="listing-heading">{{gameInterface.year}}</p>
+            <p>Оценка: {{gameInterface.rating}}</p>
+            <p>Игроков: {{gameInterface.numplayers}}</p>
+            <p>Время партии: {{gameInterface.playingTime}}</p>
+            <p>Сложность: {{gameInterface.complexity}}</p>
+        </div>
+    </div>
+    <div>
+        <h5>Описание</h5>
+        <p class="listing-location" [innerHTML]="gameInterface.description"></p>
+    </div>
+  </section>

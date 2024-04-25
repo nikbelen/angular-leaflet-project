@@ -1,0 +1,47 @@
+<div class="home-container">
+    <app-header></app-header>
+    <div class="header-center">
+        <h1>Мой профиль</h1>
+        <button [routerLink]="['/account']" mat-raised-button color="accent" class="example-full-width">Личные данные</button>
+        <button [routerLink]="['/account']" mat-raised-button color="accent" class="example-full-width">Моя Коллекция</button>
+        <button [routerLink]="['/account']" mat-raised-button color="accent" class="example-full-width">Мои мероприятия</button>
+    </div>
+    <section class="listing">
+        <div class="top-info">
+        <form class="top-info" [formGroup]="applyForm" (submit)="submitApplication()">
+            <mat-form-field class="example-full-width" color="accent">
+                <mat-label>Логин</mat-label>
+                <input id="login" type="text" formControlName="login" matInput #login maxlength="256" placeholder="Введите логин">
+                <mat-hint align="start"><strong>Supporting text</strong> </mat-hint>
+                <mat-hint align="end">{{login.value.length}} / 256</mat-hint>
+              </mat-form-field>
+            <!-- <label for="first-name">First Name</label> -->
+            <!-- <input id="first-name" type="text" formControlName="firstName"> -->
+    
+            <mat-form-field class="example-full-width" color="accent">
+                <mat-label>Имя</mat-label>
+                <input  id="name" type="text" formControlName="name" matInput #name maxlength="256" placeholder="Введите имя">
+                <mat-hint align="start"><strong>Supporting text</strong> </mat-hint>
+                <mat-hint align="end">{{name.value.length}} / 256</mat-hint>
+              </mat-form-field>
+
+              <mat-form-field class="example-full-width" color="accent">
+                <mat-label>Электронная почта</mat-label>
+                <input  id="email" type="text" formControlName="email" matInput #email maxlength="256" placeholder="Введите email">
+                <mat-hint align="start"><strong>Supporting text</strong> </mat-hint>
+                <mat-hint align="end">{{email.value.length}} / 256</mat-hint>
+              </mat-form-field>
+            <!-- <label for="last-name">Last Name</label>
+            <input id="last-name" type="text" formControlName="lastName">
+    
+            <label for="email">Email</label>
+            <input id="email" type="email" formControlName="email"> -->
+            <button type="submit" mat-raised-button color="accent" class="example-full-width">Сохранить</button>
+            <button type="submit" mat-raised-button color="accent" class="example-full-width">Отмена</button>
+            <!-- <button type="submit" class="primary">Apply now</button> -->
+        </form>
+        </div>
+    </section>
+
+    <img class="meeple" src="../../assets/meeple.svg">
+</div>

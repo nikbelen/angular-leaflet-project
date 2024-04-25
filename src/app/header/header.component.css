@@ -1,0 +1,38 @@
+.navbar-default {
+    height: 80px;
+    background-color: #d9d9d9;
+    display: flex;
+}
+
+.container-fluid{
+    display: flex;
+    flex-direction: row;
+    gap: 100px;
+    height: 100%;
+}
+
+.navbar-brand{
+    position: relative;
+    top: 40%;
+    margin: 10px;
+}
+
+.navbar-icon{
+    position: relative;
+    top: 28%;
+    margin: 10px;
+}
+
+.container-right{
+    position: absolute;
+    /* float: right; */
+    right: 72px;
+    height: 80px;
+}
+
+.container-right-icon{
+    position: absolute;
+    /* float: right; */
+    right: 24px;
+    height: 80px;
+}

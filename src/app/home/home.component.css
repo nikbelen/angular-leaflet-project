@@ -1,0 +1,40 @@
+.home-container {
+    background: #EFBE74;
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.dune {
+    position: absolute;
+    width: 66%;
+    right: 0px;
+}
+
+div p {
+    font-size: 24pt;
+}
+
+.wrapper {
+    display: grid;
+    grid-template-columns: 33% 60%;
+}
+
+.text-with-button {
+    display: flex;
+    flex-direction: column;
+    margin: 32px;
+}
+
+.text-with-button p {
+    text-align: justify;
+}
+
+.text-with-button button {
+    margin: auto;
+    text-align: center;
+}

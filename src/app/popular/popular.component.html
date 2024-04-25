@@ -1,0 +1,7 @@
+<div class="home-container">
+    <app-header></app-header>
+    <div class="wrapper">
+        <app-game *ngFor="let gameInterface of gameInterfaceList"
+        [gameInterface]="gameInterface"></app-game>
+    </div>
+</div>

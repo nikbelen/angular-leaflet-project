@@ -1,0 +1,17 @@
+<nav class="navbar-default">
+    <div class="container-fluid">
+      <div class="navbar-header">
+        <a class="navbar-brand" [routerLink]="['/']">Главная</a>
+        <a class="navbar-brand" [routerLink]="['/map']">Карта</a>
+        <a class="navbar-brand" [routerLink]="['/popular']">Популярные игры</a>
+        <a class="navbar-brand" [routerLink]="['/faq']">FAQ</a>
+      </div>
+    </div>
+    <div class="container-right">
+      <a class="navbar-brand" [routerLink]="['/login']" *ngIf="!authService.isLoggedIn">Войти</a>
+      <a class="navbar-brand" [routerLink]="['/account']" *ngIf="authService.isLoggedIn">Аккаунт</a>
+    </div>
+    <div class="container-right-icon">
+      <mat-icon class="navbar-icon" aria-hidden="false" aria-label="Example account icon" fontIcon="account_circle_filled"></mat-icon>
+    </div>
+</nav>

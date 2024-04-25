@@ -1,0 +1,59 @@
+{
+    "meetings": [
+    {
+      "id": 0,
+      "name": "Играем в ИП!",
+      "numplayers": "1",
+      "maxplayers": "8",
+      "photo": "https://petrsu.ru/files/nphotos/2021/4/5/606adb5899fd5_458642_medium.jpg",
+      "date": "26.04.2024",
+      "description": "Собираемся и играем во второе издание Игры Престолов, с меня место, с вас печеньки и питса",
+      "latitude": "61.78615170787511",
+      "longitude": "34.352525149940945"
+    },
+    {
+      "id": 1,
+      "name": "Играем в ИП!",
+      "numplayers": "1",
+      "maxplayers": "8",
+      "photo": "https://petrsu.ru/files/nphotos/2021/4/5/606adb5899fd5_458642_medium.jpg",
+      "date": "26.04.2024",
+      "description": "Собираемся и играем во второе издание Игры Престолов, с меня место, с вас печеньки и питса",
+      "latitude": "59.78615170787511",
+      "longitude": "34.352525149940945"
+    },
+    {
+      "id": 2,
+      "name": "Играем в ИП!",
+      "numplayers": "1",
+      "maxplayers": "8",
+      "photo": "https://petrsu.ru/files/nphotos/2021/4/5/606adb5899fd5_458642_medium.jpg",
+      "date": "26.04.2024",
+      "description": "Собираемся и играем во второе издание Игры Престолов, с меня место, с вас печеньки и питса",
+      "latitude": "63.78615170787511",
+      "longitude": "34.352525149940945"
+    },
+    {
+      "id": 3,
+      "name": "Играем в ИП!",
+      "numplayers": "1",
+      "maxplayers": "8",
+      "photo": "https://petrsu.ru/files/nphotos/2021/4/5/606adb5899fd5_458642_medium.jpg",
+      "date": "26.04.2024",
+      "description": "Собираемся и играем во второе издание Игры Престолов, с меня место, с вас печеньки и питса",
+      "latitude": "61.78615170787511",
+      "longitude": "32.352525149940945"
+    },
+    {
+      "id": 4,
+      "name": "Играем в ИП!",
+      "numplayers": "1",
+      "maxplayers": "8",
+      "photo": "https://petrsu.ru/files/nphotos/2021/4/5/606adb5899fd5_458642_medium.jpg",
+      "date": "26.04.2024",
+      "description": "Собираемся и играем во второе издание Игры Престолов, с меня место, с вас печеньки и питса",
+      "latitude": "61.78615170787511",
+      "longitude": "36.352525149940945"
+    }
+  ]
+}

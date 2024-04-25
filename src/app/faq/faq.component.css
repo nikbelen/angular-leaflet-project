@@ -1,0 +1,25 @@
+.home-container {
+    background: #EFBE74;
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.centered-text {
+    text-align: center;
+    margin: 32px;
+}
+
+.faq-question {
+    margin: 32px;
+    font-size: 16pt;
+}
+
+
+.wrapper {
+    overflow: auto;
+}
